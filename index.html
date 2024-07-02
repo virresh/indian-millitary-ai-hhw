@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Military History</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        header {
+            background-color: #8b0000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 20px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        nav {
+            background-color: #8b0000;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        footer {
+            background-color: #8b0000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .section h2 {
+            color: #8b0000;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .section p {
+            color: #555;
+            text-align: justify;
+        }
+
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        a {
+            color: #8b0000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            nav {
+                padding: 8px;
+            }
+            nav a {
+                margin: 0 10px;
+            }
+            .container {
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 15px 0;
+            }
+            nav a {
+                margin: 0 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Indian Military History</h1>
+    </header>
+    <nav>
+        <a href="ancient.html">Ancient</a>
+        <a href="medieval.html">Medieval</a>
+        <a href="colonial.html">Colonial</a>
+        <a href="modern.html">Modern</a>
+    </nav>
+    <div class="container">
+        <section class="section">
+            <h2>Welcome to Indian Military History</h2>
+            <p>Embark on an immersive journey through the vast and intricate tapestry of human conflict with our Military History App. From the ancient battlefields that defined the rise and fall of empires to the cutting-edge strategies and technologies shaping modern warfare, our app offers a comprehensive exploration of military history spanning millennia. Dive deep into interactive timelines that chart the evolution of warfare tactics and the progression of military technology. Explore meticulously detailed maps that bring to life the landscapes where history's most decisive engagements unfolded.
+
+                Curated by esteemed historians and experts, our app features in-depth articles that uncover the untold stories behind pivotal moments in global military history. Whether you're a seasoned scholar or a curious novice, discover the bravery, innovation, and strategic brilliance that have shaped civilizations and reshaped geopolitical landscapes. Join us as we unravel the complexities of battles won and lost, the triumphs and sacrifices of soldiers and leaders, and the enduring impact of military campaigns on societies worldwide. Engage with a wealth of knowledge and insight, and deepen your understanding of how warfare has shaped the course of human history.
+            
+            In this project i've tried to cover the major events and wars.</p>
+            <img src="data:image/jpeg;base64,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" alt="Indian Military">
+            <p>Visit <a href="https://www.bharat-rakshak.com/" target="_blank">Bharat Rakshak</a> for comprehensive information on India's armed forces.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Indian Military History. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
